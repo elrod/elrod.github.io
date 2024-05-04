@@ -1,13 +1,19 @@
 import React from 'react';
-import { Box, Grid, Typography, Card, CardMedia, CardContent } from '@mui/material';
+import { Avatar, Box, Container, Divider, Typography, Card, CardContent } from '@mui/material';
 import Markdown from 'markdown-to-jsx';
 
 const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
   return (
-      <Grid item xs={12} md={9}>
-      <Card sx={{ display: 'flex' }}>
+    <Container marginTop="1em">
+    <Card sx={{ display: 'flex' }}>
         <Box sx={{ display: 'flex', flexDirection: 'column' }}>
             <CardContent sx={{ flex: '1 0 auto' }}>
+            <Avatar
+                alt={photoAlt}
+                src={photo}
+                sx={{ width: 200, height: 200, margin: 'auto' }}
+            />
+            <Divider sx={{marginTop:"1em", marginBottom:"1em"}} />
             <Typography component="div" variant="h5">
                 {title}
             </Typography>
@@ -16,14 +22,8 @@ const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
             </Typography>
             </CardContent>
         </Box>
-        <CardMedia
-            component="img"
-            sx={{ maxWidth: 300 }}
-            image={photo}
-            alt="Jacopo Essenziale"
-        />
-        </Card>
-      </Grid>
+    </Card>
+    </Container>
   );
 };
 
