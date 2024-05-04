@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Grid, Typography, Card, CardMedia, CardContent } from '@mui/material';
+import Markdown from 'markdown-to-jsx';
 
 const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
   return (
@@ -11,7 +12,7 @@ const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
                 {title}
             </Typography>
             <Typography variant="subtitle1" color="text.secondary" component="div">
-                {bio}
+                <Markdown>{bio}</Markdown>
             </Typography>
             </CardContent>
         </Box>
