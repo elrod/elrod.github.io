@@ -12,7 +12,7 @@ function App() {
   I was on a mission to blend my love for gaming with cutting-edge research,\
   working on rad projects funded by the EC aimed at developing exer-games for various e-health applications.\
   This is my little corner of the web where I'm pumped to share my projects, thoughts,\
-  and all things gaming! Welcome aboard!`;";
+  and all things gaming! Welcome aboard!";
   const photoUrl = "https://scontent-mxp1-1.xx.fbcdn.net/v/t39.30808-6/387836188_10222547299741360_7958869511524754184_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gLYACLXwJTUQ7kNvgGFJ1i1&_nc_ht=scontent-mxp1-1.xx&oh=00_AfD6FILQTchOJ0z7Yv2lsYhFPLvVQBJDCAVIDxMpPTUTJQ&oe=663C31FE";
 
   return (
