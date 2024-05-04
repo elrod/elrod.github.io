@@ -24,7 +24,7 @@ function App() {
         alignItems="top"
         minHeight="100vh"
       >
-        <BioSection title="Hey there!" photo={photoUrl} bio={bioText} />
+        <BioSection title="Hey there!" bio={bioText} photo={photoUrl} photoAlt="It's a me, Jacopo!" />
       </Box>
     </Container>
   );

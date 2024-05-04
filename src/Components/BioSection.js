@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Grid, Typography, Card, CardMedia, CardContent } from '@mui/material';
 
-const BioSection = ({ title, photo, bio }) => {
+const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
   return (
       <Grid item xs={12} md={9}>
       <Card sx={{ display: 'flex' }}>
