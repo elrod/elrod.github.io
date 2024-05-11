@@ -1,23 +1,82 @@
 [
     {
-        "title": "Project 1",
-        "description": "Description of project 1",
-        "image": "project1.jpg",
-        "tags": ["React", "Material UI", "Web Development"],
-        "link": "https://example.com/project1"
+        "title": "VRider SBK",
+        "year" : "2024",
+        "description": "A single and multi-player VR motorcicle racing game, based on the official SBK™ World Championship",
+        "image": "/img/projects/vrider.jpg",
+        "tags": ["Meta Quest", "VR", "Unity", "Funny Tales"],
+        "link": "https://vridergame.com/"
     },
     {
-        "title": "Project 2",
-        "description": "Description of project 2",
-        "image": "project2.jpg",
-        "tags": ["JavaScript", "Node.js", "Express"],
-        "link": "https://example.com/project2"
+        "title": "Re-Hub-ILITY",
+        "year" : "2022",
+        "description": "A postural exergaming platform for autonomous home rehabilitation",
+        "image": "/img/projects/rhy.jpg",
+        "tags": ["e-Health", "Kinect", "Unity", "Digital Tales"],
+        "link": "https://www.dtales.it/gaming/it/progetti-speciali-rehubility.php"
     },
     {
-        "title": "Project 3",
-        "description": "Description of project 3",
-        "image": "project3.jpg",
-        "tags": ["JavaScript", "Node.js", "Express"],
-        "link": "https://example.com/project3"
-    }  
+        "title": "SBK Official Mobile Game",
+        "year" : "2021",
+        "description": "The Official Licensed Game of the MOTUL FIM Superbike World Championship",
+        "image": "/img/projects/sbkOMG.jpg",
+        "tags": ["Android", "IOS", "Unity", "Digital Tales"],
+        "link": "https://www.sbkmobile.com/"
+    },
+    {
+        "title": "Assetto Corsa Mobile",
+        "year" : "2020",
+        "description": "Racing game: Mobile version of the original Assetto Corsa",
+        "image": "/img/projects/acm.jpg",
+        "tags": ["IOS", "Unity", "Digital Tales"],
+        "link": "https://www.youtube.com/watch?v=rFu6mcyJwo4&ab_channel=IGN"
+    },
+    {
+        "title": "MOVECARE",
+        "year" : "2019",
+        "description": "A multi-actor platform to support independent living of the elder at home",
+        "image": "/img/projects/movecare.jpg",
+        "tags": ["IOT", "Node.js", "Unity", "Unimi"],
+        "link": "https://cordis.europa.eu/project/id/732158"
+    },
+    {
+        "title": "Hello Wo#?!",
+        "year" : "2018",
+        "description": "Strategic puzzle game in retro-gaming style developed for the 2018 Global Game Jam",
+        "image": "/img/projects/hellowo.jpg",
+        "tags": ["Retro", "LUA", "Pico-8", "GGJ18"],
+        "link": "https://v3.globalgamejam.org/2018/games/hello-wo"
+    },
+    {
+        "title": "Kambio Shiamano",
+        "year" : "2016",
+        "description": "Play as Kambio, a shaman that has some difficulties in making his tribe believe his divine powers made for the 2016 Global Game Jam",
+        "image": "/img/projects/kambio.jpg",
+        "tags": ["Retro", "Unity", "GGJ18"],
+        "link": "https://v3.globalgamejam.org/2016/games/kambio-shiamano"
+    },
+    {
+        "title": "Aegyptia",
+        "year" : "2016",
+        "description": "Aegyptia is a 2d platformer for PC made for Game Design and Programming course at Politecnico di Milano",
+        "image": "/img/projects/aegyptia.jpg",
+        "tags": ["2D", "University Project", "Unity", "Polimi"],
+        "link": "https://polimi-game-collective.itch.io/aegyptia"
+    },
+    {
+        "title": "C.H.O.O.S.E.",
+        "year" : "2015",
+        "description": "An online RTS videogame built on the idea of customization made for the Online game design course at Unimi",
+        "image": "/img/projects/choose.jpg",
+        "tags": ["2D", "University Project", "Unity", "Unimi"],
+        "link": "https://www.youtube.com/watch?v=4EIgww5Fx9s&ab_channel=NewGameDesigner-Universit%C3%A0diMilano"
+    },
+    {
+        "title": "Rewire",
+        "year" : "2014",
+        "description": "Research project aimed at developing and testing an exergame platform for autonomous at home rehabilitation using non-intrusive technologies",
+        "image": "/img/projects/rewire.jpg",
+        "tags": ["e-Health", "Panda3D", "Unimi"],
+        "link": "https://cordis.europa.eu/project/id/287713/it"
+    }        
  ]
