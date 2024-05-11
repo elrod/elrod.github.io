@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Container } from '@mui/material';
 import BioSection from "./Components/BioSection";
 import ProjectsGrid from './Components/ProjectsGrid';
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -50,11 +51,13 @@ function App() {
   }, []);
 
   return (
+    <div style={{ marginBottom: '5em' }}>
     <Container marginTop="1em">
       <BioSection title="Hey there!" bio={bioText} photo={photoUrl} photoAlt="It's a me, Jacopo!" />
       <ProjectsGrid title="Projects" projects={projects} />
-
     </Container>
+    <Footer/>
+    </div>
   );
 }
 

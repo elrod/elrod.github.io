@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Box, Button, Divider, Typography, Card, CardContent } from '@mui/material';
+import { Avatar, Box, Divider, Typography, Card, CardContent } from '@mui/material';
 import Markdown from 'markdown-to-jsx';
 
 const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
