@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardActionArea, CardMedia, CardContent, Typography, Chip, Link } from '@mui/material';
+import { Card, CardActionArea, CardMedia, CardContent, Divider, Typography, Chip, Link } from '@mui/material';
 
 const ProjectCard = ({ project }) => {
   return (
@@ -18,6 +18,7 @@ const ProjectCard = ({ project }) => {
           <Typography variant="body2" color="textSecondary" component="p">
             {project.description}
           </Typography>
+          <Divider style={{ marginTop: '1em' }}/>
           <div style={{ marginTop: '1em' }}>
             {project.tags.map((tag, index) => (
               <Chip key={index} label={tag} style={{ marginRight: '0.5em' }} />

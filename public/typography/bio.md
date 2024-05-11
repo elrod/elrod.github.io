@@ -1,7 +1,7 @@
-I'm Jacopo Essenziale, and I'm all about videogames.
+I'm Jacopo, and I'm all about videogames.
 Yep, you heard it right I turned my passion into my profession as a videogame developer.
 
-Currently, I'm rocking it as TechLead and CTO at Funny Tales, an Italian video-game studio.
+Currently, I'm rocking it as TechLead and CTO at [Funny Tales](https://funnytales.us/), an Italian video-game studio.
 We're cooking up some cool games for Mobile, VR, and XR platforms.
 
 But wait, there's more! I'm also a tech enthusiast and a bit of a researcher.

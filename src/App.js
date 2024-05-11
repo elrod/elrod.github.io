@@ -24,7 +24,13 @@ function App() {
       tags: ['JavaScript', 'Node.js', 'Express'],
       link: 'https://example.com/project2'
     },
-    // Aggiungi altri progetti qui...
+    {
+      title: 'Project 3',
+      description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+      image: 'project3.jpg',
+      tags: ['JavaScript', 'Node.js', 'Express'],
+      link: 'https://example.com/project3'
+    },
   ];
 
   const fetchState = async (fileName, setStateAction) => {

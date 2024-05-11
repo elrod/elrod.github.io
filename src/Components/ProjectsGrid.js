@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 
 const ProjectsGrid = ({ title, projects }) => {
   return (
-    <div marginTop="1em">
+    <div style={{marginTop:"1em"}}>
         <Typography variant="h5" gutterBottom>
             {title}
         </Typography>
