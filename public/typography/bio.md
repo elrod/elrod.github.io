@@ -6,7 +6,7 @@ We're cooking up some cool games for Mobile, VR, and XR platforms.
 
 But wait, there's more! I'm also a tech enthusiast and a bit of a researcher.
 Back in the day, I even dipped my toes into academia as a research fellow
-at the Computer Science department of the University of Milan, Italy.
+at the **Computer Science** department of the [University of Milan](https://www.unimi.it/), Italy.
 I was on a mission to blend my love for gaming with cutting-edge research,
 working on rad projects funded by the EC aimed at developing exer-games for various e-health applications.
 
