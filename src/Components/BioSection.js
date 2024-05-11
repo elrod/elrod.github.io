@@ -1,10 +1,9 @@
 import React from 'react';
-import { Avatar, Box, Container, Divider, Typography, Card, CardContent } from '@mui/material';
+import { Avatar, Box, Divider, Typography, Card, CardContent } from '@mui/material';
 import Markdown from 'markdown-to-jsx';
 
 const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
   return (
-    <Container marginTop="1em">
     <Card sx={{ display: 'flex' }}>
         <Box sx={{ display: 'flex', flexDirection: 'column' }}>
             <CardContent sx={{ flex: '1 0 auto' }}>
@@ -23,7 +22,6 @@ const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
             </CardContent>
         </Box>
     </Card>
-    </Container>
   );
 };
 
