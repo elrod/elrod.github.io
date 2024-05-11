@@ -4,50 +4,19 @@ import BioSection from "./Components/BioSection";
 import ProjectsGrid from './Components/ProjectsGrid';
 import Footer from './Components/Footer';
 
+import {fetchStateFromFile} from './Helpers/Utils';
+
 function App() {
 
   const bioMD = '/typography/bio.md';
   const photoUrl = "/img/me.jpg";
+  const projectsJsonFile = '/projects/projects.json'
   const [bioText, setBioText] = useState('');
-
-  const projects = [
-    {
-      title: 'Project 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      image: 'project1.jpg',
-      tags: ['React', 'Material UI', 'Web Development'],
-      link: 'https://example.com/project1'
-    },
-    {
-      title: 'Project 2',
-      description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-      image: 'project2.jpg',
-      tags: ['JavaScript', 'Node.js', 'Express'],
-      link: 'https://example.com/project2'
-    },
-    {
-      title: 'Project 3',
-      description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-      image: 'project3.jpg',
-      tags: ['JavaScript', 'Node.js', 'Express'],
-      link: 'https://example.com/project3'
-    },
-  ];
-
-  const fetchState = async (fileName, setStateAction) => {
-    try {
-      const response = await fetch(fileName);
-      const text = await response.text();
-      setStateAction(text);
-    } catch (error) {
-      console.error(`error loading ${fileName}: ${error}`);
-    }
-  };
+  const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-
-    fetchState(bioMD, setBioText);
-
+    fetchStateFromFile(bioMD, setBioText);
+    fetchStateFromFile(projectsJsonFile, setProjects, true);
   }, []);
 
   return (
