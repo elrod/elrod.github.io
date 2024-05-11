@@ -14,6 +14,9 @@ const ProjectCard = ({ project }) => {
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {project.title}
+            <Typography gutterBottom variant='h6' color="textSecondary" component="div">
+            {project.year}
+            </Typography>
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             {project.description}
