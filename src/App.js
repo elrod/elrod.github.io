@@ -1,33 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import { Container } from '@mui/material';
-import BioSection from "./Components/BioSection";
-import ProjectsGrid from './Components/ProjectsGrid';
-import Footer from './Components/Footer';
-
-import {fetchStateFromFile} from './Helpers/Utils';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ClassicPortfolio from './ClassicPortfolio';
+import Portfolio3D from './Portfolio3d';
 
 function App() {
-
-  const bioMD = '/typography/bio.md';
-  const photoUrl = "/img/me.jpg";
-  const projectsJsonFile = '/projects/projects.json'
-  const [bioText, setBioText] = useState('');
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    fetchStateFromFile(bioMD, setBioText);
-    fetchStateFromFile(projectsJsonFile, setProjects, true);
-  }, []);
-
-  return (
-    <div style={{ marginBottom: '5em' }}>
-    <Container marginTop="1em">
-      <BioSection title="Hey there!" bio={bioText} photo={photoUrl} photoAlt="It's a me, Jacopo!" />
-      <ProjectsGrid title="Projects" projects={projects} />
-    </Container>
-    <Footer/>
-    </div>
-  );
+  return(
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<ClassicPortfolio />} />
+        <Route exact path="/Portfolio3D" element={<Portfolio3D />} />
+      </Routes>
+    </Router>
+  )
 }
 
 export default App;
