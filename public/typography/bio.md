@@ -1,4 +1,4 @@
-Hi there! I'm Jacopo, a passionate **videogame developer** who turned a love for gaming into a career.
+Hi! I'm Jacopo, a passionate **videogame developer** who turned a love for gaming into a career.
 
 At present, I’m serving as **TechLead** and **CTO** at [Funny Tales](https://funnytales.us/), an Italian game studio. We’re focused on creating engaging experiences across Mobile, VR, and XR platforms.
 
