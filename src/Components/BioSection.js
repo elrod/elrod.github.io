@@ -12,7 +12,7 @@ const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
             <Avatar
               alt={photoAlt}
               src={photo}
-              sx={{ verticalAlign: 'center', width: 220, height: 220, margin: 'auto', border: '2px solid', borderColor: 'action.disabledBackground' }}
+              sx={{ verticalAlign: 'center', width: 220, height: 220, margin: 'auto', border: '2px solid', borderColor: '#5FB49C' }}
             />
           </Grid>
           
@@ -23,7 +23,7 @@ const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
                 {title}
               </Typography>
               <Divider sx={{marginTop:"1em", marginBottom:"1em"}} />
-              <Typography variant="subtitle1" color="text.secondary" component="div">
+              <Typography variant="subtitle1" component="div">
                 <MuiMarkdown>{bio}</MuiMarkdown>
               </Typography>
               <Box sx={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', marginTop: 2 }}>

@@ -19,12 +19,12 @@ const ProjectCard = ({ project }) => {
             <Typography gutterBottom variant="h5" marginBottom={0} component="div">
               {project.title}
             </Typography>
-            <ChevronRightIcon marging='auto' fontSize='large' />
+            <ChevronRightIcon marging='auto' fontSize='large' sx={{color: '#5FB49C'}} />
           </Box>
           <Typography gutterBottom variant='h6' color="textSecondary" component="div">
             {project.year}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" component="p">
             {project.description}
           </Typography>
           <Divider style={{ marginTop: '1em' }}/>
