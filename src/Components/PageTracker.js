@@ -9,7 +9,7 @@ const PageTracker = () => {
     const cleanedPath = hashPath.replace("#", "") || "/";
 
     if (window.gtag) {
-      window.gtag("config", "G-640BWMC1HB", {
+      window.gtag("event", "page_view", {
         page_path: cleanedPath,
       });
     }
