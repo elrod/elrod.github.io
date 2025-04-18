@@ -4,7 +4,7 @@ import SocialCarousel from './SocialCarousel';
 
 const Footer = () => {
   return (
-    <footer style={{ position: 'fixed', bottom: 0, width: '100%', paddingBottom:".5em"}}>
+    <footer style={{ position: 'fixed', bottom: 0, width: '100%', backgroundColor:'#121212', paddingBottom:".5em"}}>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '1em' }}>
         <Typography variant="body2" gutterBottom>
            Portfolio © {new Date().getFullYear()} Jacopo Essenziale &nbsp;
