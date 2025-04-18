@@ -8,6 +8,7 @@ import Jersey25 from './fonts/Jersey25-Regular.ttf';
 
 import Header from './Components/Header'; // Import the Header component
 import Footer from './Components/Footer';
+import PageTracker from './Components/PageTracker';
 import HomePage from './Pages/HomePage';
 import ProjectPage from './Pages/ProjectPage';
 
@@ -102,6 +103,7 @@ function App() {
         <ThemeProvider theme={darkTheme}>
         <CssBaseline />
         <Header />
+          <PageTracker/>
           <div style={{ marginBottom: '5em' }}>
             <Container sx={{marginTop: "1em"}}>
               <Routes>
