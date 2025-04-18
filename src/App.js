@@ -1,32 +1,33 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Container } from '@mui/material';
-import BioSection from "./Components/BioSection";
-import ProjectsGrid from './Components/ProjectsGrid';
 import Footer from './Components/Footer';
+import HomePage from './Pages/HomePage';
+import ProjectPage from './Pages/ProjectPage';
 
 import {fetchStateFromFile} from './Helpers/Utils';
 
 function App() {
 
-  const bioMD = '/typography/bio.md';
-  const photoUrl = "/img/me.jpg";
   const projectsJsonFile = '/projects/projects.json'
-  const [bioText, setBioText] = useState('');
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetchStateFromFile(bioMD, setBioText);
     fetchStateFromFile(projectsJsonFile, setProjects, true);
   }, []);
 
   return (
-    <div style={{ marginBottom: '5em' }}>
-    <Container marginTop="1em">
-      <BioSection title="Hey there!" bio={bioText} photo={photoUrl} photoAlt="It's a me, Jacopo!" />
-      <ProjectsGrid title="Projects" projects={projects} />
-    </Container>
-    <Footer/>
-    </div>
+      <Router>
+      <div style={{ marginBottom: '5em' }}>
+        <Container marginTop="1em">
+          <Routes>
+            <Route path="/" element={<HomePage projects={projects} />} />
+            <Route path="/projects/:projectId" element={<ProjectPage projects={projects} />} />
+          </Routes>
+        </Container>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

@@ -1,10 +1,12 @@
 import React from 'react';
-import { Card, CardActionArea, CardMedia, CardContent, Divider, Typography, Chip, Link } from '@mui/material';
+import { Card, CardActionArea, CardMedia, CardContent, Divider, Typography, Chip } from '@mui/material';
+import { Link as RouterLink } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
   return (
     <Card>
-      <CardActionArea component={Link} href={project.link} target="_blank">
+      {/* <CardActionArea component={Link} href={project.link} target="_blank"> */}
+      <CardActionArea component={RouterLink} to={`/projects/${project.id}`}>
         <CardMedia
           component="img"
           alt={project.title}
