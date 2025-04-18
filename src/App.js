@@ -22,21 +22,27 @@ function App() {
     typography:{
       fontFamily: 'Jersey25',
       h1: {
+        color: '#5FB49C',
         letterSpacing: '0.05em',
       },
       h2: {
+        color: '#5FB49C',
         letterSpacing: '0.05em',
       },
       h3: {
+        color: '#5FB49C',
         letterSpacing: '0.05em',
       },
       h4: {
+        color: '#5FB49C',
         letterSpacing: '0.05em',
       },
       h5: {
+        color: '#5FB49C',
         letterSpacing: '0.05em',
       },
       h6: {
+        color: '#5FB49C',
         letterSpacing: '0.05em',
       },
       body1: {
@@ -72,19 +78,6 @@ function App() {
             },
           ],
         },
-      },
-      MuiTypography: {
-        styleOverrides:{
-          h4:{
-            color: '#5FB49C'
-          },
-          h5:{
-            color: '#5FB49C'
-          },
-          h6:{
-            color: '#5FB49C'
-          },
-        }
       },
       MuiLink: {
         styleOverrides: {
