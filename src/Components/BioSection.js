@@ -1,6 +1,6 @@
 import React from 'react';
 import { Avatar, Box, Divider, Typography, Card, CardContent } from '@mui/material';
-import Markdown from 'markdown-to-jsx';
+import { MuiMarkdown } from 'mui-markdown';
 import SocialCarousel from './SocialCarousel';
 
 const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
@@ -18,7 +18,7 @@ const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
                     {title}
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary" component="div">
-                    <Markdown>{bio}</Markdown>
+                    <MuiMarkdown>{bio}</MuiMarkdown>
                 </Typography>
                 <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
                 <SocialCarousel />
