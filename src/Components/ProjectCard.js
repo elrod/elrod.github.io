@@ -1,11 +1,12 @@
 import React from 'react';
-import { Card, CardActionArea, CardMedia, CardContent, Divider, Typography, Chip } from '@mui/material';
+import { Card, CardActionArea, CardMedia, CardContent, Divider, Typography, Chip, Box } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+
 
 const ProjectCard = ({ project }) => {
   return (
     <Card>
-      {/* <CardActionArea component={Link} href={project.link} target="_blank"> */}
       <CardActionArea component={RouterLink} to={`/projects/${project.id}`}>
         <CardMedia
           component="img"
@@ -14,11 +15,14 @@ const ProjectCard = ({ project }) => {
           image={project.image}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            {project.title}
-            <Typography gutterBottom variant='h6' color="textSecondary" component="div">
-            {project.year}
+          <Box display="flex" justifyContent="space-between" alignItems="center">
+            <Typography gutterBottom variant="h5" marginBottom={0} component="div">
+              {project.title}
             </Typography>
+            <ChevronRightIcon marging='auto' fontSize='large' />
+          </Box>
+          <Typography gutterBottom variant='h6' color="textSecondary" component="div">
+            {project.year}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             {project.description}

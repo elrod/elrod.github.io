@@ -12,7 +12,7 @@ const BioSection = ({ title, bio, photo, photoAlt="photo" }) => {
             <Avatar
               alt={photoAlt}
               src={photo}
-              sx={{ verticalAlign: 'center', width: 220, height: 220, margin: 'auto', border: '2px solid rgba(255, 255, 255, 0.12)' }}
+              sx={{ verticalAlign: 'center', width: 220, height: 220, margin: 'auto', border: '2px solid', borderColor: 'action.disabledBackground' }}
             />
           </Grid>
           

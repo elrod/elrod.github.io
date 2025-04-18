@@ -16,6 +16,15 @@ function App() {
     palette: {
       mode: 'dark',
     },
+    components: {
+      MuiLink: {
+        styleOverrides: {
+          root: {
+            textDecoration: 'none', // Remove underline from links
+          },
+        },
+      }
+    }
   });
 
   const projectsJsonFile = '/projects/projects.json'
