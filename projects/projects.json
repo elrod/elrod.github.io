@@ -1,5 +1,6 @@
 [
     {
+        "id": "vrider-sbk",
         "title": "VRider SBK",
         "year" : "2024",
         "description": "A single and multi-player VR motorcicle racing game, based on the official SBK™ World Championship",
@@ -8,6 +9,7 @@
         "link": "https://vridergame.com/"
     },
     {
+        "id": "rehubility",
         "title": "Re-Hub-ILITY",
         "year" : "2022",
         "description": "A postural exergaming platform for autonomous home rehabilitation",
@@ -16,6 +18,7 @@
         "link": "https://www.dtales.it/gaming/it/progetti-speciali-rehubility.php"
     },
     {
+        "id": "sbk-omg",
         "title": "SBK Official Mobile Game",
         "year" : "2021",
         "description": "The Official Licensed Game of the MOTUL FIM Superbike World Championship",
@@ -24,6 +27,7 @@
         "link": "https://www.sbkmobile.com/"
     },
     {
+        "id": "assetto-corsa-mobile",
         "title": "Assetto Corsa Mobile",
         "year" : "2020",
         "description": "Racing game: Mobile version of the original Assetto Corsa",
@@ -32,6 +36,7 @@
         "link": "https://www.youtube.com/watch?v=rFu6mcyJwo4&ab_channel=IGN"
     },
     {
+        "id": "movecare",
         "title": "MOVECARE",
         "year" : "2019",
         "description": "A multi-actor platform to support independent living of the elder at home",
@@ -48,6 +53,7 @@
         "link": "https://v3.globalgamejam.org/2018/games/hello-wo"
     },
     {
+        "id": "kambio-shiamano",
         "title": "Kambio Shiamano",
         "year" : "2016",
         "description": "Play as Kambio, a shaman that has some difficulties in making his tribe believe his divine powers made for the 2016 Global Game Jam",
@@ -56,6 +62,7 @@
         "link": "https://v3.globalgamejam.org/2016/games/kambio-shiamano"
     },
     {
+        "id": "aegyptia",
         "title": "Aegyptia",
         "year" : "2016",
         "description": "Aegyptia is a 2d platformer for PC made for Game Design and Programming course at Politecnico di Milano",
@@ -64,14 +71,16 @@
         "link": "https://polimi-game-collective.itch.io/aegyptia"
     },
     {
+        "id": "choose",
         "title": "C.H.O.O.S.E.",
         "year" : "2015",
         "description": "An online RTS videogame built on the idea of customization made for the Online game design course at Unimi",
         "image": "/img/projects/choose.jpg",
-        "tags": ["2D", "University Project", "Unity", "Unimi"],
+        "tags": ["3D", "University Project", "Unity", "Unimi"],
         "link": "https://www.youtube.com/watch?v=4EIgww5Fx9s&ab_channel=NewGameDesigner-Universit%C3%A0diMilano"
     },
     {
+        "id": "rewire",
         "title": "Rewire",
         "year" : "2014",
         "description": "Research project aimed at developing and testing an exergame platform for autonomous at home rehabilitation using non-intrusive technologies",
