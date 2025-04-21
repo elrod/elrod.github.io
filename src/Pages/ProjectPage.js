@@ -99,12 +99,12 @@ const ProjectPage = ({ projects }) => {
         )}
       </Typography>
     <Button
-    variant="contained"
+    variant="outlined"
     color="primary"
     href={project.link}
     target="_blank"
     rel="noopener noreferrer"
-    style={{ marginTop: '20px' }}
+    style={{ marginTop: '20px'}}
     >
     See more...
     </Button>

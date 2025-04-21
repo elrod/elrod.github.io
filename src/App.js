@@ -19,6 +19,9 @@ function App() {
   const darkTheme = createTheme({
     palette: {
       mode: 'dark',
+      primary: {
+        main: '#e78474',
+      }
     },
     typography:{
       fontFamily: 'Jersey25',
