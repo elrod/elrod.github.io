@@ -11,6 +11,7 @@ const PageTracker = () => {
     if (window.gtag) {
       window.gtag("event", "page_view", {
         page_path: cleanedPath,
+        page_title: document.title,
       });
     }
   }, [location]);

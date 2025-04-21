@@ -11,6 +11,13 @@ const ProjectPage = ({ projects }) => {
   const [longDescription, setLongDescription] = useState(null);
 
   useEffect(() => {
+    if(project && project.title)
+    {
+      console.log(document.title);
+      var title=project.title + " | Jacopo Essenziale";
+      document.title = title;
+      console.log(document.title);
+    }
     if(project && project.typography)
     {
       fetchStateFromFile(project.typography, setLongDescription);

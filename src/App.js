@@ -108,7 +108,7 @@ function App() {
             <Container sx={{marginTop: "1em"}}>
               <Routes>
                 <Route path="/" element={<HomePage projects={projects} />} />
-                <Route path="/projects/:projectId" element={<ProjectPage projects={projects} />} />
+                <Route path="/projects/:projectId" element={<ProjectPage projects={projects}/>} />
               </Routes>
             </Container>
             <Footer />

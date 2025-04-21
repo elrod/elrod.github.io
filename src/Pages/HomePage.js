@@ -12,6 +12,7 @@ const HomePage = ({ projects }) => {
   const [bioText, setBioText] = useState('');
 
     useEffect(() => {
+      document.title = "Jacopo Essenziale | Game Developer";
       fetchStateFromFile(bioMD, setBioText);
     }, []);
 
