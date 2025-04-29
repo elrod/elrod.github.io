@@ -20,6 +20,7 @@
         "title": "Re-Hub-ILITY",
         "year" : "2022",
         "description": "A postural exergaming platform for autonomous home rehabilitation",
+        "typography": "/typography/rehubility.md",
         "image": "/img/projects/rhy.jpg",
         "dev-time": "3 years",
         "team-size": "4",
