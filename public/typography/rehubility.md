@@ -30,7 +30,7 @@ This allowed seamless integration with various motion tracking devices, includin
 
 This abstraction ensured maximum **hardware flexibility**, allowing clinical partners to tailor the rehabilitation experience to the needs of each study or patient group without changes to the game logic.
 
-### Real-Time Monitoring & Virtual Coaching
+##### Real-Time Monitoring & Virtual Coaching
 
 To enhance both the **effectiveness** and **engagement** of the rehabilitation experience, we developed a real-time **exercise monitoring system** built around the figure of a **virtual therapist**.
 
