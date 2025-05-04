@@ -36,6 +36,7 @@
         "title": "SBK Official Mobile Game",
         "year" : "2021",
         "description": "The Official Licensed Game of the MOTUL FIM Superbike World Championship",
+        "typography": "/typography/sbk-omg.md",
         "image": "/img/projects/sbkOMG.jpg",
         "dev-time": "1 year",
         "team-size": "8",
