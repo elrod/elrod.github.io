@@ -125,7 +125,7 @@
         "description": "An online RTS videogame built on the idea of customization made for the Online game design course at Unimi",
         "typography": "/typography/choose.md",
         "dev-time": "3 months",
-        "team-size": "6",
+        "team-size": "4",
         "engine" : "Unity",
         "role" : "Game Programmer",
         "platforms" : ["Windows", "Mac", "Linux"], 
