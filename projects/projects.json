@@ -130,6 +130,7 @@
         "role" : "Game Programmer",
         "platforms" : ["Windows", "Mac", "Linux"], 
         "image": "/img/projects/choose.jpg",
+        "video": "/video/projects/choose.mp4",
         "tags": ["3D", "University Project", "Unity", "Unimi"],
         "link": "https://www.youtube.com/watch?v=4EIgww5Fx9s&ab_channel=NewGameDesigner-Universit%C3%A0diMilano"
     },
