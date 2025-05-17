@@ -39,7 +39,20 @@ const ProjectPage = ({ projects }) => {
   return (
     <div>
     <Typography variant="h4" gutterBottom>{project.title}</Typography>
-    <img src={project.image} alt={project.title} style={{ width: '100%'}} />      
+    {/* <img src={project.image} alt={project.title} style={{ width: '100%'}} />       */}
+    {project.video ? (
+      <video
+        src={project.video}
+        style={{ width: '100%', maxHeight: '600px', objectFit: 'cover' }}
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+    ) : (
+      <img src={project.image} alt={project.title} style={{ width: '100%' }} />
+    )}
+ 
     {/* Optional Info Box */}
     {(project.year || project['dev-time'] || project['team-size'] || project.engine || project.studio || project.role || platforms || tags) && (
       <div style={{ marginTop: '20px', padding: '16px', border: '1px solid #424242', borderRadius: '4px' }}>

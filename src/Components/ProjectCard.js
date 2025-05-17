@@ -8,12 +8,23 @@ const ProjectCard = ({ project }) => {
   return (
     <Card>
       <CardActionArea component={RouterLink} to={`/projects/${project.id}`}>
-        <CardMedia
-          component="img"
-          alt={project.title}
-          height="200"
-          image={project.image}
-        />
+        {project.video ? (
+          <video
+            src={project.video}
+            style={{ width: '100%', height: '200px', objectFit: 'cover' }}
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        ) : (
+          <CardMedia
+            component="img"
+            alt={project.title}
+            height="200"
+            image={project.image}
+          />
+        )}
         <CardContent>
           <Box display="flex" justifyContent="space-between" alignItems="center">
             <Typography gutterBottom variant="h5" marginBottom={0} component="div">
