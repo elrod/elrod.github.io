@@ -16,7 +16,9 @@ const ProjectCard = ({ project }) => {
             loop
             muted
             playsInline
-          />
+          >
+          <img src={project.image} alt={project.title} style={{ width: '100%' }} />
+        </video>
         ) : (
           <CardMedia
             component="img"

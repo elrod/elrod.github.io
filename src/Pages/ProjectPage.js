@@ -48,7 +48,9 @@ const ProjectPage = ({ projects }) => {
         loop
         muted
         playsInline
-      />
+      >
+      <img src={project.image} alt={project.title} style={{ width: '100%' }} />
+      </video>
     ) : (
       <img src={project.image} alt={project.title} style={{ width: '100%' }} />
     )}
