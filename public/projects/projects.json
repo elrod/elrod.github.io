@@ -123,6 +123,7 @@
         "title": "C.H.O.O.S.E.",
         "year" : "2015",
         "description": "An online RTS videogame built on the idea of customization made for the Online game design course at Unimi",
+        "typography": "/typography/choose.md",
         "dev-time": "3 months",
         "team-size": "6",
         "engine" : "Unity",
