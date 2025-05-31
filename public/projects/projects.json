@@ -6,6 +6,7 @@
         "description": "A single and multi-player VR motorcicle racing game, based on the official SBK™ World Championship",
         "typography": "/typography/vrider-sbk.md",
         "image": "/img/projects/vrider.jpg",
+        "video": "/video/projects/vrider.mp4",
         "dev-time": "1 year",
         "team-size": "12",
         "engine" : "Unity",
