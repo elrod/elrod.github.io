@@ -33,7 +33,9 @@ const ProjectMediaCarousel = ({ media }) => {
           justifyContent: "center",
           gap: 1,
           position: "absolute",
+          overflow: "hidden",
           bottom: 8,
+          maxWidth: "100%",
           left: "50%",
           transform: "translateX(-50%)",
           backgroundColor: "rgba(0,0,0,0.6)",
@@ -50,6 +52,7 @@ const ProjectMediaCarousel = ({ media }) => {
               border: activeIndex === index ? "2px solid #5FB49C" : "2px solid transparent",
               padding: 0,
               background: "none",
+              overflow: "hidden",
               cursor: "pointer",
             }}
           >
