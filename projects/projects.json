@@ -149,7 +149,14 @@
         "engine" : "Unity",
         "role" : "Game Programmer",
         "platforms" : ["Windows", "Mac", "Linux"], 
-        "image": "/img/projects/aegyptia.jpg",
+        "image": "/img/projects/aegyptia/aegyptia.jpg",
+        "media":
+        [
+            { "type": "image", "src": "/img/projects/aegyptia/aegyptia.jpg" },
+            { "type": "image", "src": "/img/projects/aegyptia/aegyptia_1.jpg" },
+            { "type": "image", "src": "/img/projects/aegyptia/aegyptia_2.jpg" },
+            { "type": "image", "src": "/img/projects/aegyptia/aegyptia_3.jpg" }
+        ],
         "tags": ["2D", "University Project", "Unity", "Polimi"],
         "link": "https://polimi-game-collective.itch.io/aegyptia"
     },
