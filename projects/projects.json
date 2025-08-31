@@ -5,8 +5,16 @@
         "year" : "2024",
         "description": "A single and multi-player VR motorcicle racing game, based on the official SBK™ World Championship",
         "typography": "/typography/vrider-sbk.md",
-        "image": "/img/projects/vrider.jpg",
-        "video": "/video/projects/vrider.mp4",
+        "image": "/img/projects/vrider/vrider.jpg",
+        "video": "/video/projects/vrider/vrider.mp4",
+        "media":
+        [
+            { "type": "video", "src": "/video/projects/vrider/vrider.mp4" },
+            { "type": "image", "src": "/img/projects/vrider/vrider_1.jpg" },
+            { "type": "image", "src": "/img/projects/vrider/vrider_2.jpg" },
+            { "type": "image", "src": "/img/projects/vrider/vrider_3.jpg" },
+            { "type": "image", "src": "/img/projects/vrider/vrider_4.jpg" }
+        ],
         "dev-time": "1 year",
         "team-size": "12",
         "engine" : "Unity",
