@@ -5,12 +5,11 @@ const PageTracker = () => {
   const location = useLocation();
 
   useEffect(() => {
-    const hashPath = location.hash || window.location.hash || "/";
-    const cleanedPath = hashPath.replace("#", "") || "/";
+    const path = location.pathname + location.search + location.hash;
 
     if (window.gtag) {
       window.gtag("event", "page_view", {
-        page_path: cleanedPath,
+        page_path: path || "/",
         page_title: document.title,
       });
     }
