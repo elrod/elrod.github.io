@@ -78,7 +78,16 @@
         "title": "Assetto Corsa Mobile",
         "year" : "2020",
         "description": "Racing game: Mobile version of the original Assetto Corsa",
-        "image": "/img/projects/acm.jpg",
+        "image": "/img/projects/acm/acm.jpg",
+        "media":
+        [
+            { "type": "image", "src": "/img/projects/acm/acm.jpg" },
+            { "type": "image", "src": "/img/projects/acm/acm_1.jpg" },
+            { "type": "image", "src": "/img/projects/acm/acm_2.jpg" },
+            { "type": "image", "src": "/img/projects/acm/acm_3.jpg" },
+            { "type": "image", "src": "/img/projects/acm/acm_4.jpg" },
+            { "type": "image", "src": "/img/projects/acm/acm_5.jpg" }
+        ],
         "dev-time": "1 year",
         "team-size": "10",
         "engine" : "Unity",
