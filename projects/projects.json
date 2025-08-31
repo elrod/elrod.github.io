@@ -30,7 +30,16 @@
         "year" : "2022",
         "description": "A postural exergaming platform for autonomous home rehabilitation",
         "typography": "/typography/rehubility.md",
-        "image": "/img/projects/rhy.jpg",
+        "image": "/img/projects/rhy/rhy.jpg",
+        "media":
+        [
+            { "type": "image", "src": "/img/projects/rhy/rhy_1.jpg" },
+            { "type": "image", "src": "/img/projects/rhy/rhy_2.jpg" },
+            { "type": "image", "src": "/img/projects/rhy/rhy_3.jpg" },
+            { "type": "image", "src": "/img/projects/rhy/rhy_4.jpg" },
+            { "type": "image", "src": "/img/projects/rhy/rhy_5.jpg" },    
+            { "type": "image", "src": "/img/projects/rhy/rhy_6.jpg" }
+        ],
         "dev-time": "3 years",
         "team-size": "4",
         "engine" : "Unity",
