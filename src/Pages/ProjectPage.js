@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { People, Build, Computer, BusinessCenter, Work } from '@mui/icons-material';
 import { MuiMarkdown } from 'mui-markdown';
 import {fetchStateFromFile} from '../Helpers/Utils';
+import ProjectMediaCarousel from '../Components/ProjectMediaCarousel';
 
 const ProjectPage = ({ projects }) => {
   const { projectId } = useParams();
@@ -40,19 +41,23 @@ const ProjectPage = ({ projects }) => {
     <div>
     <Typography variant="h4" gutterBottom>{project.title}</Typography>
     {/* <img src={project.image} alt={project.title} style={{ width: '100%'}} />       */}
-    {project.video ? (
-      <video
-        src={project.video}
-        style={{ width: '100%', maxHeight: '600px', objectFit: 'cover' }}
-        autoPlay
-        loop
-        muted
-        playsInline
-      >
-      <img src={project.image} alt={project.title} style={{ width: '100%' }} />
-      </video>
+    {project.media && project.media.length > 0 ? (
+      <ProjectMediaCarousel media={project.media} />
     ) : (
-      <img src={project.image} alt={project.title} style={{ width: '100%' }} />
+      project.video ? (
+        <video
+          src={project.video}
+          style={{ width: '100%', maxHeight: '600px', objectFit: 'cover' }}
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+        <img src={project.image} alt={project.title} style={{ width: '100%' }} />
+        </video>
+      ) : (
+        <img src={project.image} alt={project.title} style={{ width: '100%' }} />
+      )
     )}
  
     {/* Optional Info Box */}
