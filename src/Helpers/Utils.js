@@ -4,7 +4,7 @@ export const fetchStateFromFile = async (fileName, setStateAction, json) => {
         if(json)
         {
             const jsonData = await response.json();
-            console.log(jsonData);
+            //console.log(jsonData);
             setStateAction(jsonData)
         }
         else{
