@@ -55,7 +55,15 @@
         "year" : "2021",
         "description": "The Official Licensed Game of the MOTUL FIM Superbike World Championship",
         "typography": "/typography/sbk-omg.md",
-        "image": "/img/projects/sbkOMG.jpg",
+        "image": "/img/projects/sbkOMG/sbkOMG.jpg",
+        "media":
+        [
+            { "type": "image", "src": "/img/projects/sbkOMG/sbkOMG.jpg" },
+            { "type": "image", "src": "/img/projects/sbkOMG/sbkOMG_1.jpg" },
+            { "type": "image", "src": "/img/projects/sbkOMG/sbkOMG_2.jpg" },
+            { "type": "image", "src": "/img/projects/sbkOMG/sbkOMG_3.jpg" },
+            { "type": "image", "src": "/img/projects/sbkOMG/sbkOMG_4.jpg" }
+        ],
         "dev-time": "1 year",
         "team-size": "8",
         "engine" : "Unity",
