@@ -7,7 +7,7 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 const ProjectCard = ({ project }) => {
   return (
     <Card>
-      <CardActionArea component={RouterLink} to={`/projects/${project.id}`}>
+      <CardActionArea component={RouterLink} to={`/projects/${project.id}/`}>
         {project.video ? (
           <video
             src={project.video}
