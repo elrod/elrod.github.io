@@ -32,8 +32,8 @@
     "postbuild": "react-snap"
   },
   "reactSnap": {
-  "inlineCss": true,
-  "crawl": true
+    "inlineCss": true,
+    "crawl": true
   },
   "eslintConfig": {
     "extends": [
