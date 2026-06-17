@@ -19,6 +19,21 @@ const ProjectPage = ({ projects }) => {
       document.title = title;
       console.log(document.title);
     }
+    if (project && project.description) {
+
+      let metaDescription = document.querySelector('meta[name="description"]');
+
+      if (!metaDescription) {
+        metaDescription = document.createElement('meta');
+        metaDescription.setAttribute('name', 'description');
+        document.head.appendChild(metaDescription);
+
+      }
+      metaDescription.setAttribute(
+        'content',
+        project.description
+      );
+    }
     if(project && project.typography)
     {
       fetchStateFromFile(project.typography, setLongDescription);
